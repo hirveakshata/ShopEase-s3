@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shopase-web-app"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-s3-template #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "shopase-web-app"
+  description: "Creating s3 bucket for ShopEase app"
+  tags: ["aws-s3"]
+  system: 
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
